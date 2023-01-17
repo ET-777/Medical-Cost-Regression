@@ -1,7 +1,7 @@
 Medical Cost Multivariate Linear Regression
 -----------------------
 
-Linear Regression and Polynomial models to predict the medical insurance cost of customers from a customer dataset. The dataset contains customer information and region, along with their medical cost. Dataset is [here](https://www.kaggle.com/datasets/mirichoi0218/insurance?datasetId=13720&sortBy=voteCount&utm=). You can see the data processing, model, code, and full explanations in the MedicalCostRegression.ipynb notebook above.
+Linear Regression and Polynomial models to predict the medical insurance cost of customers from a customer dataset. The dataset contains customer information and region, along with their medical cost. Dataset is [here](https://www.kaggle.com/datasets/mirichoi0218/insurance?datasetId=13720&sortBy=voteCount&utm=). You can see the data processing, model, code, and full explanations in the `MedicalCostRegression.ipynb` notebook above.
 
 Quick Overview
 ----------------------
@@ -43,14 +43,18 @@ Plotting the data, we find:
 - As with region, sex does not seem to have an impact on charges.
 
 Smoking has the highest correlation with charges, unsurprsingly. Sex and region the least, so these last two are dropped.
+<br /><br />
 
 Results
 ----------------------
 
-Using Linear regresion, the model is fitted and trained, getting the following results.
+Using Linear regression, the model is fitted and trained, getting the following results.
+<br /><br />
 
 Model score: 0.7300423756673933
+
 Model test score: 0.7894429387120754
+
 Model mean squared error: 33577421.938634135
 
 <p align="center">
@@ -64,11 +68,15 @@ Graphs
 <br />
 </p>
 
-Using polynomial regreesion, 6 models with different degreees. The model with 2 degrees proved best out of all the model and best at generalizing with the following results.
+Using polynomial regression, 6 models with different degreees. The model with 2 degrees proved best out of all the model and best at generalizing with the following results.
+<br /><br />
 
 Degree: 2
+
 Model score: 0.8266610379551892
+
 Model test score: 0.8750334947519957
+
 Model mean squared error: 19928341.748514995
 
 <p align="center">
